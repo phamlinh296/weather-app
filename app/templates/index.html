@@ -6,8 +6,8 @@
     <title>Dự báo thời tiết</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/static/style.css" />
-    <link rel="stylesheet" href="/static/style.css" />
-    <link rel="stylesheet" href="/static/weather.css" />
+    <!-- <link rel="stylesheet" href="/static/weather.css" /> -->
+    <link rel="stylesheet" href="/static/style_new.css" />
 </head>
 
 <body>
@@ -50,7 +50,8 @@
             <canvas id="tempChart" data-labels='{{ result.hourly | map(attribute="time") | list | tojson }}'
                 data-temps='{{ result.hourly | map(attribute="temp") | list | tojson }}'>
             </canvas>
-            <script src="/static/weather.js"></script>
+            <!-- <script src="/static/weather.js"></script> -->
+            <script src="/static/weather_new.js"></script>
         </section>
         {% else %}
         <p>Hãy nhập tên thành phố để xem dự báo.</p>

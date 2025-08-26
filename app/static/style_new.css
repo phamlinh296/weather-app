@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #80deea);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+form.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form.search input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+}
+
+form.search button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #0288d1;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+form.search button:hover {
+    background-color: #0277bd;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hourly .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: linear-gradient(to top, #ffffff, #b2ebf2);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.chart-section {
+    margin-top: 30px;
+}
