@@ -1,6 +1,16 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #e0f7fa, #80deea);
+    background: linear-gradient(to right, #e0f7fa, #80deea);
+    /* background: linear-gradient(120deg, #e0f7fa, #80deea, #26c6da); */
+
+    /* font-family: 'Roboto', sans-serif;
+    /* Nền kết hợp hình + gradient overlay */
+    /* background: */
+    /* linear-gradient(to right, rgba(224, 247, 250, 0.7), rgba(128, 222, 234, 0.7)), */
+    /* url('/static/images/bg.jpg') no-repeat center center fixed; */
+    /* background-size: cover; */
+    /* color: #ffffff; */
+
     margin: 0;
     padding: 0;
 }
